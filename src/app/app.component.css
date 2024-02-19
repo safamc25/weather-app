@@ -1,0 +1,44 @@
+
+#background-video {
+  position: fixed;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1;
+}
+.container{
+    font-family: "Public Sans", sans-serif;
+    background-image: url('https://i.postimg.cc/bJcKxyMv/w1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 650px;
+    width: 420px;
+}
+
+ 
+h2{
+ 
+  color:white
+  
+  }
+
+  .form-control{
+    
+      border-radius: 10px;
+  }
+
+  .temp{
+    color: white;
+  }
+  
+  h1{
+    color: white;
+  }
+  h4{
+    font-weight: bold;
+  }
+  h6{
+    color: rgb(4, 4, 90);
+  }
