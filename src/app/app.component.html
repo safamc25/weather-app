@@ -22,7 +22,7 @@
         <h4 >{{ getWeatherType() }}</h4>
       </div>
 
-      <div class="row mt-5 ms-1  border border-dark" *ngIf="weatherData.main">
+      <div class="row weather mt-5 ms-1  border border-dark" *ngIf="weatherData.main">
         <div class="col-lg-6 mt-2 text-center ">
           <h6 >Humidity</h6>
           <h4>{{ getHumidity() }}%</h4>
@@ -40,7 +40,7 @@
           </div>
 
           <div class="col-lg-6   ">
-            <h6 class=" ms-5">Ground level</h6>
+            <h6 class="grnd ms-5">Ground level</h6>
             <h4 class=" ms-2">{{ getGroundLevel() }} meters</h4>
           </div>
         </div>

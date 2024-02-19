@@ -42,3 +42,9 @@ h2{
   h6{
     color: rgb(4, 4, 90);
   }
+
+  @media(max-width:500px){
+    .form-control{width:80%}
+    .weather{text-align: center; width: 90%;}
+    .grnd{margin-left: 40px;}
+  }
